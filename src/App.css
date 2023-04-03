@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Card{
+  background-image:url("./components/images/back-to-future.jpg");
+  height: 100vh;
+  padding-top:200px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal{
+  width: 350px;
+  height: 300px;
+  background-color:black;
+  opacity: 0.6;
+  margin: 0 auto;
+border-radius:5px;
+text-align: center;
+justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.modal h1{
   color: white;
+  padding-top: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+select{
+  width: 300px;
+  height: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#section1{
+  margin-top: 35px;
+  margin-bottom: 15px;
+  background-color:black;
+  opacity: 0.2;
+  color: white;
+  opacity: 1;
+  border: none;
+  font-size: 20px;
+}
+#section2{
+  margin-bottom: 15px;
+  background-color:black;
+  opacity: 0.2;
+  color: white;
+  opacity: 1;
+  border: none;
+  font-size: 20px;
+}
+form button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.header{
+  padding-top:50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: rgb(68, 68, 68);
+ z-index: 34232;
+ display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.header-wrapper{
+  display: flex;
+  gap: 300px;
+  padding-left:300px;
+}
+.header-wrapper p{
+  color: white;
+  font-size: 15px;
+}
+span{
+  color: white;
+  font-size: 15px;
+}
+.cardss{
+  background-image:url("./components/images/sign-road-sunlight-hd-2K-wallpaper.jpg");
+  height: 100vh;}
+  main{
+      height: 100vh;
+      padding-top: 20px;
+      margin-bottom: 200px; }
+    
+.div{
+  display: flex;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  gap: 20px;
+  padding-bottom: 300px;
+  overflow: auto;
+  width: 1400px;
+  height: 80vh;
+  
+}
+.div img{
+  background-color:black;
+  opacity: 0.75;
+  width: 200px;
+  height: 200px;
+  border-radius:5px;
+  z-index: 43;
 }
